@@ -1,11 +1,7 @@
 import React from 'react'
 
-const container = ({children}) => {
-  return (
-    <div>
-      {children}
-    </div>
-  )
+const Container = ({children}) => {
+  return <div>{children}</div>;
 }
 
-export default container
+export default Container
