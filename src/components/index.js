@@ -3,13 +3,14 @@ import Footer from "./Footer/Footer";
 import Container from "./container/container";
 import Logo from "./Logo";
 import Logout from "./Header/Logout";
+import Login from "./Login";
+import Input from "./Input";
 import RTE from "./RTE";
 import SignUp from "./Signup";
 import Login from "./Login";
-import Post from './Post';
 import PostForm from "./post-form/PostForm";
 import PostCard from './PostCard'
-
+import AuthLayout from './AuthLayout';
 export {
   Header, 
   Footer,
@@ -19,7 +20,8 @@ export {
   RTE,
   SignUp,
   Login,
-  Post,
   PostForm,
-  PostCard
+  PostCard,
+  AuthLayout,
+  Input
 }
